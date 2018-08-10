@@ -4,13 +4,13 @@ eureka:
   client:
     serviceUrl:
 #      defaultZone: http://54.251.169.181:8010/eureka/
-      defaultZone: http://54.254.179.125:8010/eureka/
+      defaultZone: http://13.229.224.32:8010/eureka/
 
 ---
 spring:
   profiles: subject
-  #words: I,You,He,She,It
-words: Nguyen,Duong,Thien,Hoang
+words: I,You,He,She,It
+#words: Nguyen,Duong,Thien,Hoang
   
 ---
 spring:
